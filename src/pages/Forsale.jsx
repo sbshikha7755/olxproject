@@ -1,10 +1,10 @@
 import {React} from 'react'
 
-function Blog(){
+function Forsale(){
     return(
         <>
-        <h1>blog</h1>
+        <h1>Forsale</h1>
         </>
     );
 };
-export default Blog;
+export default Forsale;

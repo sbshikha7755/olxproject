@@ -3,11 +3,11 @@ import { useState } from 'react'
 import Navbar from './widgets/navbar/Navbar'
 import Navbar2 from './widgets/navbar/Navbar2'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './pages/Home';
-import Buyshell from './pages/Buyshell';
-import Items from './pages/Items';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+import Beds from './pages/Beds';
+import Cars from './pages/Cars';
+import Mobile from './pages/Mobile';
+import Forsale from './pages/Forsale';
+import Forrent from './pages/Forrent';
 
 
 import './App.css'
@@ -25,11 +25,11 @@ function App() {
       <Navbar />
      <Navbar2/>
      <Routes>
-      <Route path='/' element={<Home />}/>
-      <Route path='/buyshell' element={<Buyshell />}/>
-       <Route path='/items' element={< Items />}/>
-        <Route path='/blog' element={<Blog />}/>
-         <Route path='/contact' element={<Contact />}/>
+      <Route path='/' element={<Beds />}/>
+      <Route path='/Cars' element={<Cars />}/>
+       <Route path='/Mobile' element={<Mobile />}/>
+        <Route path='/Forsale' element={<Forsale />}/>
+         <Route path='/Forrent' element={<Forrent />}/>
 
      </Routes>
       </BrowserRouter>

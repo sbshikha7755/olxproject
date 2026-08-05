@@ -1,10 +1,10 @@
 import {React} from 'react'
 
-function Items(){
+function Cars(){
     return(
         <>
-        <h1>  Items</h1>
+        <h1> Buyshell</h1>
         </>
     );
 };
-export default Items;
+export default Cars;
