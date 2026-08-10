@@ -1,12 +1,12 @@
 import { React } from 'react'
- import Datacard from '../components/homesection/Datacard';
+import Mobilecard from '../components/mobilesection/Mobilecard'
 
 function Mobile() {
     return (
         <>
             <main>
                 <div className='grid grid-cols-4'>
-                    <Datacard />
+                     <Mobilecard/>
                 </div>
             </main>
 

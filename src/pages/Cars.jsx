@@ -1,9 +1,12 @@
 import {React} from 'react'
+import Car from '../components/carsection/Car'
 
 function Cars(){
     return(
         <>
-        <h1> Buyshell</h1>
+        <main>
+            <Car/>
+        </main>
         </>
     );
 };

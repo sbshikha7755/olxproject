@@ -1,8 +1,9 @@
 import { React } from 'react'
-import Data from '../../components/data/Datamobile';
+import Data from '../../components/data/Datamobile'
 
 
-function Datacard() {
+
+function Mobilecard() {
 
     return (
         <>
@@ -28,4 +29,4 @@ function Datacard() {
         </>
     );
 };
-export default Datacard;
+export default Mobilecard;

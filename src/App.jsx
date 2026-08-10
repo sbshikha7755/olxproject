@@ -2,12 +2,14 @@ import { useState } from 'react'
 
 import Navbar from './widgets/navbar/Navbar'
 import Navbar2 from './widgets/navbar/Navbar2'
+import Footer from './widgets/footer/Footer'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Beds from './pages/Beds';
 import Cars from './pages/Cars';
 import Mobile from './pages/Mobile';
 import Forsale from './pages/Forsale';
 import Forrent from './pages/Forrent';
+import Readcar from './components/carsection/Readcar';
 
 
 import './App.css'
@@ -30,8 +32,10 @@ function App() {
        <Route path='/Mobile' element={<Mobile />}/>
         <Route path='/Forsale' element={<Forsale />}/>
          <Route path='/Forrent' element={<Forrent />}/>
+         <Route path='/readcar' element={<Readcar />} />
 
      </Routes>
+     <Footer/>
       </BrowserRouter>
      
     </>

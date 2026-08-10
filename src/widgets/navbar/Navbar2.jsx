@@ -7,7 +7,7 @@ function Navbar2(){
         <>
        <div className='navbar-wapper'>
             <div className="navbar">
-           <div className='para'> <p>ALL CATEGORIES</p></div>
+             <div><button className='border-2 bg-blue-400 w-60 rounded-b-full rounded-t-full font-bold size-10 text-2xl'>ALL CATEGROIES</button></div>
             <ul className='linkk'>
                 <li><a href="/">Beds-Wardrobes</a></li>
                 <li><a href="/Cars">Cars</a></li>
