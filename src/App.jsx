@@ -10,6 +10,7 @@ import Mobile from './pages/Mobile';
 import Forsale from './pages/Forsale';
 import Forrent from './pages/Forrent';
 import Readcar from './components/carsection/Readcar';
+import Form from './components/form/Form'
 
 
 import './App.css'
@@ -33,6 +34,7 @@ function App() {
         <Route path='/Forsale' element={<Forsale />}/>
          <Route path='/Forrent' element={<Forrent />}/>
          <Route path='/readcar' element={<Readcar />} />
+         <Route path='/form' element={<Form/>}></Route>
 
      </Routes>
      <Footer/>

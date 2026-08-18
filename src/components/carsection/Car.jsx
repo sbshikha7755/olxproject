@@ -3,6 +3,7 @@ import Homecard from '../homesection/Homecard';
 import { Link } from "react-router-dom";
 
 
+
 function Car(){
 
 
@@ -15,13 +16,8 @@ function Car(){
        <Homecard/>
        <h1 className='ml-40 text-gray-400'>Home</h1>
        <h1 className='ml-40 text-3xl font-bold'>311373 USed Cars in Indida-Buy Second Hand Cars</h1>
-       <p className='ml-40 font-extralight mt-10 '>Looking for a reliable second-hand car in India? You are in the right place. We currently have a wide range of 311125 used cars listed, perfect for every budget and need.....</p>
-         <Link
-        to="/readcar"
-        className="ml-40 mt-3 inline-block text-blue-600"
-      >
-        More read
-      </Link>
+       <p className='ml-40 font-extralight mt-10 '>Looking for a reliable second-hand car in India? You are in the right place. We currently have a wide range of 311125 used cars listed, perfect for every budget and need.....<Link to="/readcar"className=" inline-block text-blue-600">Read more</Link></p>
+         
         </>
     );
 };

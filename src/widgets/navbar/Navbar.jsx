@@ -1,13 +1,15 @@
 import { React } from 'react';
-import Olxlogo from '../../assets/olxlogo.jpg'
-import Find from '../../assets/find.jpg'
-import Search from '../../assets/search.jpg'
-import { Heart } from 'lucide-react'
-import { UserRound } from 'lucide-react'
-import {Plus} from 'lucide-react'
+import Olxlogo from '../../assets/olxlogo.jpg';
+import Find from '../../assets/find.jpg';
+import Search from '../../assets/search.jpg';
+import { Heart } from 'lucide-react';
+import { UserRound } from 'lucide-react';
+import {Plus} from 'lucide-react';
+import { useNavigate } from "react-router-dom";
  
 
 function Navbar() {
+   const navigate = useNavigate();
   return (
     <>
         <div className='bg-blue-200 w-full h-14 flex '>
@@ -28,8 +30,8 @@ function Navbar() {
         </form>
         <div className='ml-96 flex mt-2'>
           <p> <Heart className='ml-4' />Whilelist</p>
-          <p className='ml-8'> <UserRound className='ml-2' />Login</p>
-          <div className=''><button className='border-4 w-32 rounded-b-full rounded-t-full font-bold size-10 text-2xl flex ml-60 border-t-amber-300 border-b-emerald-500 border-l-fuchsia-600 border-r-orange-400'><Plus size={32} color="#080808" strokeWidth={3} className='ml-5' /><p className='font-medium text-blue-700'>Sell</p></button></div>
+          <p onClick={() => navigate("/form")} className='ml-8'> <UserRound className='ml-2' />Login </p>
+          <div className=''><button onClick={() => navigate("/form")} className='border-4 w-32 rounded-b-full rounded-t-full font-bold size-10 text-2xl flex ml-60 border-t-amber-300 border-b-emerald-500 border-l-fuchsia-600 border-r-orange-400'><Plus size={32} color="#080808" strokeWidth={3} className='ml-5' /><p className='font-medium text-blue-700'>Sell </p></button></div>
         </div>
 
       </div>
