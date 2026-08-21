@@ -1,5 +1,5 @@
 import { React } from 'react';
-import Olxlogo from '../../assets/olxlogo.jpg';
+import Sello from '../../assets/sello.png'
 import Find from '../../assets/find.jpg';
 import Search from '../../assets/search.jpg';
 import { Heart } from 'lucide-react';
@@ -12,8 +12,8 @@ function Navbar() {
    const navigate = useNavigate();
   return (
     <>
-        <div className='bg-blue-200 w-full h-14 flex '>
-        <div className='w-14 mt-2 '><img className='rounded-full object-cover ml-5  ' src={Olxlogo} alt={Olxlogo} /></div>
+        <div className='bg-blue-200 w-full h-16 flex '>
+        <div className='bg-transparent  '><img className='rounded-full object-cover ml-10 h-16 w-16 ' src={Sello} alt={Sello} /></div>
 
         <form className='ml-20 mt-2' >
           <div className='relative flex  gap-10 '>

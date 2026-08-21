@@ -2,6 +2,7 @@
  import { Smile } from "lucide-react";
  import Homecard from '../components/homesection/Homecard';
  import Bedss from '../components/beds/Bedss'
+ import Bedcard from '../components/beds/Bedcard'
 
  
  function Beds(){
@@ -10,6 +11,9 @@
          <main>
             <Bedss/>
              <Homecard/>
+             <div className='grid grid-cols-4'>
+                    <Bedcard/>
+                </div>
 
           
          </main>

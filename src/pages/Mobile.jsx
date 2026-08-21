@@ -1,6 +1,7 @@
 import { React } from 'react'
 import Mobilecard from '../components/mobilesection/Mobilecard'
 
+
 function Mobile() {
     return (
         <>
