@@ -76,7 +76,7 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="mb-3 flex gap-2">
 
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-lg font-bold text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-200 text-lg font-bold text-white">
                 f
               </div>
 
