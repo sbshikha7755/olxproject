@@ -1,11 +1,49 @@
-import {React} from 'react'
+import { useContext } from "react";
+import Usecontext from "../components/rentsection/Usecontext";
 
-function Forrent(){
-    return(
-        <>
-        <h1>Forrent</h1>
-        <h2>rentttt</h2>
-        </>
-    );
-};
+function Forrent() {
+  const data = useContext(Usecontext);
+
+  console.log(data); // check browser console
+
+  return (
+    <>
+      <h1>Forrent {data?.name}</h1>
+      <h2>Age: {data?.age}</h2>
+    </>
+  );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+
 export default Forrent;

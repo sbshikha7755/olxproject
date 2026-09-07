@@ -96,7 +96,7 @@ const Footer = () => {
                 ☎
               </div>
 
-              <div className="flex h-8 w-8 items-center justify-center rounded-md bg-blue-700 text-sm font-bold text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-md bg-amber-200 text-sm font-bold text-white">
                 in
               </div>
 

@@ -8,7 +8,11 @@ import Beds from './pages/Beds';
 import Cars from './pages/Cars';
 import Mobile from './pages/Mobile';
 import Forsale from './pages/Forsale';
-import Forrent from './pages/Forrent';
+// import Forrent from './pages/Forrent';
+import Context from "./components/rentsection/Context";
+
+
+
 import Readcar from './components/carsection/Readcar';
 import Form from './components/form/Form'
 
@@ -32,7 +36,11 @@ function App() {
       <Route path='/Cars' element={<Cars />}/>
        <Route path='/Mobile' element={<Mobile />}/>
         <Route path='/Forsale' element={<Forsale />}/>
-         <Route path='/Forrent' element={<Forrent />}/>
+         {/* <Route path='/Forrent' element={<Forrent />}/> */}
+          <Route
+          path="/Forrent"
+          element={<Context />}
+        />
          <Route path='/readcar' element={<Readcar />} />
          <Route path='/form' element={<Form/>}></Route>
 
